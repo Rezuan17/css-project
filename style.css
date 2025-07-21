@@ -1,11 +1,118 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+body {
+  font-family: 'Open Sans', sans-serif;
 }
 
-.container{
-    background-color: #e5e6fd;
-    min-height: 100vh;
-    border: 10px solid black;
+
+
+
+
+
+
+/* font-color-style */
+.font-color{
+    color: orange;
+}
+.dark-2{
+    color: #474747;
+}
+.font-color1{
+    color: white;
+}
+.dark-1{
+    color
+}
+
+/* btn style */
+
+.btn-primary{
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: bold;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: 2px solid white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* header style */
+
+.header{
+    background-image: url(images/developer.png),url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    /* background-size: auto , 400px; */
+    
+
+}
+     
+/* nav style */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+.nav-title{
+    font-weight: 800px;
+    font-size: 45px;
+}
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+    
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* banner style..... */
+
+.banner{
+    /* display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px; */
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 200px;
+}
+.banner-content{
+    max-width: 480px;
+}
+.banner-gritings{
+    font-weight: 600;
+    font-size: 45px;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+    margin: 0;
+    line-height: 1.1;
+    white-space: nowrap;
+}
+
+.pera-banner-description{
+    font-size: 18px;
+
+}
+
+/* image style */
+
+.banner-profile-pic{
+    /* width: 580px; */
+    width: 500px;
+    height: auto;
 }
