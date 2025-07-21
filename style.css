@@ -28,7 +28,7 @@ body {
     color: white;
     font-weight: bold;
     padding: 18px 35px;
-    border-radius: 5px;
+    border-radius: 15px;
     border: 2px solid white;
     font-size: 20px;
     cursor: pointer;
@@ -46,7 +46,9 @@ body {
 .secondary-bgc{
     background-color: #FFF8F3;
 }
-
+.text-center{
+    text-align: center;
+}
 
 /* header style */
 
@@ -134,11 +136,16 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 .about{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
+    
 }
 
 .about-items{
@@ -148,4 +155,61 @@ main{
 
 .item-description{
     font-weight: 600;
+    
+}
+
+/* skills section styles */
+/* .skills{
+    margin-top: 20px;
+} */
+.skills-container{
+    display: flex;
+    gap: 30px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 7px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.skill:hover{
+    box-shadow: 0px 6px 50px 0px rgba(0,0.3,0.5,0.1);
+    
+    transform: translateY(-3px) scale(1.1);
+    
+}
+
+.section-description{
+    padding: 30px;
+}
+
+/* resume section styles */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-title{
+    font-weight: bold;
+    font-size: 25px;
+    color: #474747;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.experience-description, .experience-sub-title{
+    color: #757575;
+}
+
+.resume hr{
+    margin: 30px 5px;
+}
+
+/* button start */
+.btn-3{
+    margin-top: 70px;
+    
 }
